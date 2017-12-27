@@ -1,0 +1,10 @@
+#link1 {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration-line: line-through;
+}
+
+.leisuretime {
+    color: darkred;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+h1 {
+    /*font-family: Georgia;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+p {
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+span {
+    font-size: 2em;
+    text-decoration: underline;
+}k

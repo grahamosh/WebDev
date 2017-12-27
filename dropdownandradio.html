@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Udemy Intro to HTML</title>
+    <!-- METADATA in HEAD -->
+</head>
+<body>
+    <h1>Drop downs and radio buttons</h1>
+
+    <form>
+        <p>do you prefer cats or dogs?</p>
+        <label for="dogs">Dogs:</label>
+        <input id="dogs"  name="petChoice" type="radio" value="DOGS" required><br><br>
+
+        <label for="cats">Cats:</label>
+        <input id="cats"  name="petChoice" type="radio" value="CATS" required>
+        <!--  petChoice here means that only one option can be chosen (raison d'etre for radio buttons)      -->
+        <br><br>
+
+        <!--  dropdown menus using SELECT and OPTION      -->
+
+        <p>what is your favourite colour?</p>
+        <select name="favcolour">
+            <option value='red'>red</option>
+            <option value='orange'>orange</option>
+            <option value='yellow'>yellow</option>
+        </select>
+
+        <p>what is your current mood?</p>
+        <select name="mood">
+            <option value=happy>:o)</option>
+            <option value=neutral>:o|</option>
+            <option value=sad>:o(</option>
+        </select>
+        <button>Go!</button> <br><br>
+
+        <textarea name=paragraph rows="10" columns="50"></textarea>
+    </form>
+ </body>
+</html>

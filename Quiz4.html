@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz 4</title>
+    <!-- METADATA in HEAD -->
+</head>
+<body>
+    <h1>Register</h1>
+
+    <form>
+        <label for="firstname">First Name:</label>
+        <input id="firstname"  name="firstname" type="text" required>
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname"  name="lastname" type="text" required><br>
+
+        <div>
+            <label for="male">Male</label>
+            <input id="male"  name="sex" type="radio" value="MALE" required>
+            <label for="female">Female:</label>
+            <input id="female"  name="sex" type="radio" value="FEMALE" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email"  name="email" type="email" required>
+            <label for="password">Password:</label>
+            <input id="password"  type="password" pattern=".{5,10}" title="Password must be between 5 and 10 characters!" required>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <select name="Month">
+                <option value=Month  selected>Month</option>
+                <option value=January>Jan</option>
+                <option value=February>Feb</option>
+                <option value=March>Mar</option>
+                <option value=April>Apr</option>
+            </select>
+
+            <select name="Day" >
+                <option value=Day  selected>Day</option>
+                <option value=First>01</option>
+                <option value=Second>02</option>
+                <option value=Third>03</option>
+                <option value=Fourth>04</option>
+            </select>
+
+            <select  name="Year">
+                <option value=Year  selected>Year</option>
+                <option value=2017>2017</option>
+                <option value=2016>2016</option>
+                <option value=2015>2015</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="tsandcs">I agree to the terms and conditions:</label>
+            <input id="tsandcs" type="checkbox" required><br>
+        </div>
+
+        <input type="submit">
+    </form>
+ </body>
+</html>
